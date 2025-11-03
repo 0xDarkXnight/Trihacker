@@ -439,8 +439,7 @@ def build_app(token: str):
 
 # ---- run ----
 def main():
-    # REFINEMENT (SECURITY): Load token from environment variable. DO NOT hardcode it.
-    token = "8244280032:AAE-v3KNt8dUSbGnikxGqyR1839EBF-SLmI"
+    token = "PlaceHolderForYourBotApi"  # We have removed ours..
     if not token:
         print("Error: BOT_TOKEN environment variable not set.")
         print("Please set it, e.g.: export BOT_TOKEN='Your:TokenHere'")
